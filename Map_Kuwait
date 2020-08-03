@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My map</title>
+    <link rel='stylesheet' type='text/css'
+        href='https://api.tomtom.com/maps-sdk-for-web/cdn/5.x/5.37.2/maps/maps.css' />
+    <script src='https://api.tomtom.com/maps-sdk-for-web/cdn/5.x/5.37.2/maps/maps-web.min.js'></script>
+    <style>
+        #map {
+            height: 500px;
+            width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id='map'></div>
+    <script>
+        var map = tt.map({
+            container: 'map',
+            key: 'Ls6LpQ0nbEWT5hGOPpN9EjA1wKEPuRXX',
+            style: 'tomtom://vector/1/basic-main'
+        });
+    </script>
+    <script>
+        var coordinates2 = [48.13423, 29.08348]
+        var map = tt.map({
+            container: 'map',
+            key: 'Ls6LpQ0nbEWT5hGOPpN9EjA1wKEPuRXX',
+            style: 'tomtom://vector/1/basic-main',
+            center: coordinates2,
+            zoom: 15
+        });
+        var marker = new tt.Marker().setLngLat(coordinates2).addTo(map);
+        var popupOffsets = {
+            top: [0, 0],
+            bottom: [0, -70],
+            'bottom-right': [0, -70],
+            'bottom-left': [0, -70],
+            left: [25, -35],
+            right: [-25, -35]
+        }
+
+        var popup = new tt.Popup({
+            offset: popupOffsets
+        }).setHTML(
+            "<b>Le Grand, Kuwait </b>,<br><br /> Kot al wataniya general trading and Contracting co, GMO Building 5,6 Street-57, Block 11, Opposite Ajjal Mall Fahaheel, Kuwait."
+        );
+        marker.setPopup(popup).togglePopup();
+    </script>
+</body>
+
+</html>
