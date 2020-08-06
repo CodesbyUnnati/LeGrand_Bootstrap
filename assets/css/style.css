@@ -177,7 +177,7 @@ h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #fff;
+  color: #000;
   transition: 0.3s;
   font-size: 20px;
   text-transform: uppercase;
@@ -402,7 +402,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.1);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -420,7 +420,7 @@ h6 {
   margin: 0;
   font-size: 56px;
   line-height: 64px;
-  color: #fff;
+  color: red;
 
 }
 
@@ -429,7 +429,7 @@ h6 {
 }
 
 #hero h2 {
-  color: #ddd;
+  color: #333;
   margin: 10px 0 0 0;
   font-size: 24px;
 }
@@ -459,7 +459,7 @@ h6 {
 }
 
 #hero .icon-box h3 a {
-  color: #fff;
+  color: #333;
   transition: ease-in-out 0.3s;
 }
 
@@ -877,6 +877,83 @@ section {
 
 /* Call To Action Section
 --------------------------------*/
+
+/*--------------------------------------------------------------
+# Why Us
+--------------------------------------------------------------*/
+.why-us {
+  padding-top: 0;
+}
+
+.why-us .box {
+  padding: 50px 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  transition: all ease-in-out 0.3s;
+}
+
+.why-us .box span {
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+  color: #ed5b5b;
+}
+
+.why-us .box h4 {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0;
+  margin: 20px 0;
+  color: #191919;
+}
+
+.why-us .box p {
+  color: #aaaaaa;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.why-us .box:hover {
+  background: #cc1616;
+  padding: 30px 30px 70px 30px;
+  box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+}
+
+.why-us .box:hover span,
+.why-us .box:hover h4,
+.why-us .box:hover p {
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.clients {
+  background: #f2f2f2;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.clients img {
+  width: 50%;
+
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+}
+
+.clients img:hover {
+  -webkit-filter: none;
+  filter: none;
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .clients img {
+    width: 40%;
+  }
+}
+
 
 
 /* Clients Section
