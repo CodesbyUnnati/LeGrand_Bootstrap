@@ -173,7 +173,7 @@ h6 {
 }
 
 #header .logo {
-  font-size: 34px;
+  font-size: 14px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -462,7 +462,7 @@ h6 {
 
 #hero h1 {
   margin: 0;
-  font-size: 56px;
+  font-size: 40px;
   line-height: 64px;
   color: red;
 
@@ -485,7 +485,7 @@ h6 {
 }
 
 #hero .icon-box i {
-  font-size: 32px;
+  font-size: 25px;
   line-height: 1;
   color: rgb(252, 96, 96);
 }
@@ -697,7 +697,7 @@ section {
   color: #000;
   text-transform: uppercase;
   text-align: center;
-  font-weight: 700;
+  font-weight: 100;
   position: relative;
   padding-bottom: 15px;
 }
@@ -811,7 +811,7 @@ section {
 #about .about-col h2 {
   color: #000;
   text-align: center;
-  font-weight: 700;
+  font-weight: 100;
   font-size: 20px;
   padding: 0;
   margin: 40px 0 12px 0;
@@ -858,7 +858,7 @@ section {
 
 #services .title {
   margin-left: 60px;
-  font-weight: 700;
+  font-weight: 100;
   margin-bottom: 15px;
   font-size: 18px;
 }
@@ -899,7 +899,7 @@ section {
 #call-to-action .cta-btn {
 
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 100;
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
@@ -991,7 +991,7 @@ section {
   display: none;
   color: red;
   margin: 0 0 15px 0;
-  font-weight: 400;
+  font-weight: 100;
   font-size: 13px;
 }
 
@@ -1001,7 +1001,7 @@ section {
   background: #ed3c0d;
   text-align: left;
   padding: 15px;
-  font-weight: 600;
+  font-weight: 100;
 }
 
 #contact .php-email-form .error-message br+br {
@@ -1014,7 +1014,7 @@ section {
   background: red;
   text-align: center;
   padding: 15px;
-  font-weight: 600;
+  font-weight: 100;
 }
 
 #contact .php-email-form .loading {
@@ -1107,7 +1107,7 @@ section {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 10px;
   line-height: 1;
-  font-weight: 700;
+  font-weight: 100;
   letter-spacing: 3px;
 
 }
@@ -1248,6 +1248,6 @@ section {
 .soft-skills {
   text-align: center;
   overflow: hidden;
-  min-width:10px;
+  min-width: 10px;
   justify-content: center;
 }
