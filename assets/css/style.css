@@ -1251,3 +1251,18 @@ section {
   min-width: 10px;
   justify-content: center;
 }
+#gowtham{
+  margin-left: 0px;
+}
+@media(max-width:1024px)
+
+{
+  #gowtham{
+  
+    margin-left: 0px;
+    
+  }
+  #gowtham img{
+
+  }
+}
