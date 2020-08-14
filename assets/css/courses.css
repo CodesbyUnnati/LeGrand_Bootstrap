@@ -47,7 +47,6 @@ h6 {
     border-radius: 50%;
     right: 15px;
     bottom: 15px;
-    transition: background 0.5s;
     z-index: 11;
 }
 
@@ -369,7 +368,7 @@ h6 {
     position: relative;
     color: #333333;
     padding: 10px 20px;
-    font-weight: 500;
+    font-weight: 100;
     outline: none;
 }
 
@@ -491,7 +490,7 @@ h6 {
 }
 
 #hero .icon-box h3 {
-    font-weight: 700;
+    font-weight: 100;
     margin: 10px 0 0 0;
     padding: 0;
     color: #333;
@@ -668,7 +667,7 @@ h6 {
 }
 
 #intro .btn-get-started {
-    font-weight: 500;
+    font-weight: 100;
     font-size: 16px;
     letter-spacing: 1px;
     display: inline-block;
@@ -697,7 +696,7 @@ section {
     color: #000;
     text-transform: uppercase;
     text-align: center;
-    font-weight: 700;
+    font-weight: 100;
     position: relative;
     padding-bottom: 15px;
 }
@@ -811,7 +810,7 @@ section {
 #about .about-col h2 {
     color: #000;
     text-align: center;
-    font-weight: 700;
+    font-weight: 100;
     font-size: 20px;
     padding: 0;
     margin: 40px 0 12px 0;
@@ -858,7 +857,7 @@ section {
 
 #services .title {
     margin-left: 60px;
-    font-weight: 700;
+    font-weight: 100;
     margin-bottom: 15px;
     font-size: 18px;
 }
@@ -889,7 +888,7 @@ section {
 #call-to-action h3 {
     color: #fff;
     font-size: 28px;
-    font-weight: 700;
+    font-weight: 100;
 }
 
 #call-to-action p {
@@ -899,7 +898,7 @@ section {
 #call-to-action .cta-btn {
 
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 100;
     font-size: 16px;
     letter-spacing: 1px;
     display: inline-block;
@@ -991,7 +990,7 @@ section {
     display: none;
     color: red;
     margin: 0 0 15px 0;
-    font-weight: 400;
+    font-weight: 100;
     font-size: 13px;
 }
 
@@ -1001,7 +1000,7 @@ section {
     background: #ed3c0d;
     text-align: left;
     padding: 15px;
-    font-weight: 600;
+    font-weight: 100;
 }
 
 #contact .php-email-form .error-message br+br {
@@ -1014,7 +1013,7 @@ section {
     background: red;
     text-align: center;
     padding: 15px;
-    font-weight: 600;
+    font-weight: 100;
 }
 
 #contact .php-email-form .loading {
@@ -1107,7 +1106,7 @@ section {
     margin: 0 0 20px 0;
     padding: 2px 0 2px 10px;
     line-height: 1;
-    font-weight: 700;
+    font-weight: 100;
     letter-spacing: 3px;
 
 }
@@ -1258,7 +1257,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about .content h3 {
-    font-weight: 600;
+    font-weight: 100;
     font-size: 26px;
 }
 
@@ -1354,20 +1353,20 @@ section {
 .steps .content-item span {
     display: block;
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 100;
     color: red;
 }
 
 .steps .content-item h4 {
     font-size: 28px;
-    font-weight: 400;
+    font-weight: 100;
     padding: 0;
     margin: 20px 0;
     color: red;
 }
 
 .steps .content-item p {
-    color:#000;
+    color: #000;
     font-size: 15px;
     margin: 0;
     padding: 0;
