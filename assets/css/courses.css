@@ -221,7 +221,7 @@ h6 {
     position: relative;
     color: #000;
     transition: 0.3s;
-    font-size: 20px;
+    font-size: 15px;
     text-transform: uppercase;
 
 }
@@ -692,7 +692,7 @@ section {
 /* Sections Header
 --------------------------------*/
 .section-header h3 {
-    font-size: 32px;
+    font-size: 22px;
     color: #000;
     text-transform: uppercase;
     text-align: center;
@@ -1304,7 +1304,7 @@ section {
 --------------------------------------------------------------*/
 .about h3 {
     font-weight: 400;
-    font-size: 34px;
+    font-size: 22px;
     color: #21413c;
 }
 
@@ -1319,7 +1319,7 @@ section {
 }
 
 .about .icon-box h4 {
-    font-size: 22px;
+    font-size: 15px;
     font-weight: 500;
     margin-left: 60px;
     color: #21413c;
@@ -1352,13 +1352,13 @@ section {
 
 .steps .content-item span {
     display: block;
-    font-size: 24px;
+    font-size: 14px;
     font-weight: 100;
     color: red;
 }
 
 .steps .content-item h4 {
-    font-size: 28px;
+    font-size: 18px;
     font-weight: 100;
     padding: 0;
     margin: 20px 0;
