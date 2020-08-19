@@ -772,7 +772,7 @@ h6 {
 
 .courses .course-content h3 {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 10px;
 }
 
 .courses .course-content h3 a {
@@ -785,7 +785,7 @@ h6 {
 }
 
 .courses .course-content p {
-    font-size: 14px;
+    font-size: 10px;
     color: #777777;
 }
 
@@ -828,8 +828,8 @@ h6 {
 
 #buy {
 
-    font-weight: 500;
-    font-size: 14px;
+    font-weight: 100;
+    font-size: 10px;
     letter-spacing: 1px;
     display: inline-block;
     padding: 12px 32px;
@@ -859,7 +859,7 @@ h6 {
 }
 
 .pricing .box h3 {
-    font-weight: 400;
+    font-weight: 100;
     padding: 15px;
     margin-top: 15px;
     font-size: 18px;
@@ -870,8 +870,8 @@ h6 {
 .pricing .box h4 {
     font-size: 42px;
     color: red;
-    font-weight: 500;
-    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+
     margin-bottom: 20px;
 }
 
@@ -1334,7 +1334,8 @@ h6 {
     font-size: 13px;
     color: #000;
 }
-#soft-skills{
+
+#soft-skills {
     text-align: center;
     display: none;
     justify-content: center;
