@@ -353,7 +353,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   left: 15px;
-  height: 200px;
+  height: 250px;
   z-index: 9999;
   overflow-y: auto;
   background: rgba(255, 0, 0, 0.5);
@@ -532,12 +532,24 @@ h6 {
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
+    display: none;
   }
+
+
 
   #hero h2 {
     font-size: 20px;
     line-height: 24px;
   }
+}
+
+@media (max-width: 770px) {
+
+  #new_logo {
+    margin-left: 38vmin !important;
+  }
+
+
 }
 
 #hero .btn-get-started {
@@ -708,6 +720,8 @@ section {
   margin-bottom: 0;
   padding: 0 20px 20px 20px;
 }
+
+
 
 /* Services Section
 --------------------------------*/
@@ -1161,7 +1175,7 @@ section {
   }
 
   .heading {
-    background: #fff;
+    background: transparent;
     padding: 1%;
     text-align: left;
     box-shadow: 0px 0px 4px 0px #545b62;
@@ -1173,7 +1187,7 @@ section {
 
   .bio-info {
     padding: 5%;
-    background: #fff;
+    background: transparent;
     box-shadow: 0px 0px 4px 0px #b0b3b7;
   }
 
@@ -1195,7 +1209,21 @@ section {
   }
 
   .bio-content p {
-    font-weight: 600;
+    font-weight: 100;
     font-size: 30px;
   }
 
+  .img-about {
+    width: auto;
+    height: 250px;
+    vertical-align: middle;
+  }
+
+  .img-about {
+    width: auto;
+    height: 250px;
+    vertical-align: middle;
+  }
+
+
+}
