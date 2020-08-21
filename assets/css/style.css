@@ -320,7 +320,7 @@ h6 {
     width: 500px;
     height: 800px;
     margin-left: 50vmin;
-    transform: scale(3);
+    transform: scale(4);
   }
 
   #heading {
@@ -1193,7 +1193,7 @@ section {
 
   .name {
 
-    font-weight: 600;
+    font-weight: 100;
   }
 
   .bio-image {
