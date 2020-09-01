@@ -35,15 +35,7 @@
                 <i class="icofont-envelope"></i><a href="mailto:info@legrandindia.com">kuwaithr@legrandindia.com</a>
                 <i class="icofont-phone"></i>+965 9808 3307 / +965 9727 9447
             </div>
-            <div class="social-links float-right">
-                <a href="https://www.facebook.com/Le-Grand-Kuwait-104300798065796/" class="facebook"><i
-                        class="icofont-facebook"></i></a>
-                <a href="https://www.instagram.com/le_grand_india/" class="instagram"><i
-                        class="icofont-instagram"></i></a>
-                <a href="https://www.linkedin.com/company/legrand-india/" class="linkedin"><i
-                        class="icofont-linkedin"></i></i></a>
-              
-            </div>
+
         </div>
     </section>
 
@@ -65,8 +57,8 @@
                             <li class="active"><a href="index.html">Home</a></li>
                             <li><a href="#about">About Us</a></li>
                             <li><a href="training.html">Services</a></li>
-                              <li><a href="vacancy.html">Careers</a></li>
-                                <li><a href="training01.html">Trainings</a></li>
+                            <li><a href="vacancy.html">Careers</a></li>
+                            <li><a href="training01.html">Trainings</a></li>
                             <li><a href="#contact">Contact Us</a></li>
                         </ul>
                     </nav>
@@ -205,7 +197,7 @@
 
         <header class="section-header wow fadeInUp">
 
-            <h3>Spoken Arabic</h3>
+            <h3 style="background:none;">Spoken Arabic</h3>
         </header>
 
         <!-- ======= About Section ======= -->
@@ -334,7 +326,6 @@
 
 
 
-
         <!-- ======= Contact Section ======= -->
         <section id="contact" class="contact">
             <div class="container">
@@ -347,64 +338,84 @@
 
 
                 </div>
+                <div class="row" data-aos="fade-up">
+                    <div class="col-lg-6">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3480.2280913442173!2d47.96042921509727!3d29.275631282168487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fcf9bd341f9a7a1%3A0x82a2ea40fc157cae!2sFrontline%20Logistics%20W.L.L!5e0!3m2!1sen!2sin!4v1597688316885!5m2!1sen!2sin"
+                            class="mb-4 mb-lg-0" src="" allowfullscreen="" aria-hidden="false" frameborder="0"
+                            style="border: 0; width: 100%; height: 390px;" tabindex="0"></iframe>
 
-                <div class="col-lg-12">
-                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                        <div class="form-row">
-                            <div class="col-md-6 form-group">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
-                                    data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                                <div class="validate"></div>
-                            </div>
-                            <div class="col-md-6 form-group">
-                                <input type="email" name="email" class="form-control" id="email"
-                                    placeholder="Your Email" data-rule="" data-msg="" />
-                                <div class="validate"></div>
-                            </div>
-                            <div class="col-md-6 form-group">
-                                <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your number"
-                                    data-rule="number" data-msg="Please enter a valid number" />
-                                <div class="validate"></div>
-                            </div>
-                        </div>
 
-                        <div class="form-group">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
-                                data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                            <div class="validate"></div>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" data-rule="required"
-                                data-msg="Please write something for us" placeholder="Message"></textarea>
-                            <div class="validate"></div>
-                        </div>
-                        <div class="mb-3">
-                            <div class="loading">Loading</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">
-                                Your message has been sent. Thank you!
+                    </div>
+
+
+                    <div class="col-lg-6" style="height: 300px;">
+                        <form id="gform"
+                            action="https://script.google.com/macros/s/AKfycbz0gLbdJV2b7ffRxIGr9Ewrs40JLx8VL3w39sYDuA/exec"
+                            method="POST">
+                            <div class="form-row">
+                                <div class="col-md-6 form-group">
+                                    <input type="text" name="name" class="form-control" id="name"
+                                        placeholder="Your Name" data-rule="minlen:4"
+                                        data-msg="Please enter at least 4 chars" required />
+                                    <div class="validate"></div>
+                                </div>
+
+                                <div class="col-md-6 form-group">
+                                    <input type="email" name="email" class="form-control" id="emai"
+                                        placeholder="Your Email" data-rule="" data-msg="" required />
+                                    <div class="validate"></div>
+                                </div>
+
+                                <div class="col-md-6 form-group">
+                                    <input type="tel" class="form-control" minlength=10 maxlength=10 name="phone"
+                                        id="phone" placeholder="Your number" data-rule="number" data-rule="minlen:10"
+                                        data-rule="maxlength:10" data-msg="Please enter a valid number" required />
+                                    <div class="validate"></div>
+                                </div>
+
+                                <div class="col-md-6 form-group">
+                                    <input type="text" class="form-control" name="subject" id="subject"
+                                        placeholder="Subject" data-rule="minlen:4"
+                                        data-msg="Please enter at least 8 chars of subject" required />
+                                    <div class="validate"></div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="text-center">
-                            <button type="submit">Send Message</button>
-                        </div>
-                    </form>
+
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" rows="5" data-rule="required"
+                                    data-msg="Please write something for us" placeholder="Message"></textarea>
+                                <div class="validate"></div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="sent-message" id="thankyou_message" style="display: none;">
+                                    Your message has been sent. Thank you!
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" id="contact-submit-btn" style="background: red;
+  border: 0;
+  padding: 10px 30px;
+  color: #000;
+  transition: 0.4s;
+  cursor: pointer;">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-            </div>
             </div>
         </section>
         <!-- End Contact Section -->
         </main>
         <!-- End #main -->
-
         <!-- ======= Footer ======= -->
         <footer id="footer">
             <div class="footer-top">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-3 col-md-6 footer-info">
+                        <div class="col-lg-4 col-md-6 footer-info">
                             <h3>
-                                <img src="assets/img/LGK-nobg.png" style="width: 130px;" />
+                                <img src="assets/img/LGK-nobg.png" style="width: 130px; margin-left: 80px;" />
                             </h3>
                             <p>
                                 Hiring teams at great companies, share the talent they can't
@@ -413,7 +424,7 @@
                             </p>
                         </div>
 
-                        <div class="col-lg-3 col-md-6 footer-links">
+                        <div class="col-lg-4 col-md-6 footer-links">
                             <h4>Useful Links</h4>
                             <ul>
                                 <li>
@@ -425,16 +436,16 @@
                                 <li>
                                     <i class="ion-ios-arrow-right"></i> <a href="training.html">Services</a>
                                 </li>
-                                 <li>
-                                     <i class="ion-ios-arrow-right"></i> <a href="vacancy.html">Careers</a>
-                                 </li>
-                                 <li>
-                                     <i class="ion-ios-arrow-right"></i> <a href="training01.html">Trainings</a>
-                                 </li>
+                                <li>
+                                    <i class="ion-ios-arrow-right"></i> <a href="vacancy.html">Careers</a>
+                                </li>
+                                <li>
+                                    <i class="ion-ios-arrow-right"></i> <a href="training01.html">Trainings</a>
+                                </li>
                             </ul>
                         </div>
 
-                        <div class="col-lg-3 col-md-6 footer-contact">
+                        <div class="col-lg-4 col-md-6 footer-contact">
                             <h4>Contact Us</h4>
                             <p>
                                 <b>Le grand Kuwait- </b>Frontline Logistics
@@ -455,17 +466,11 @@
                                         class="icofont-instagram"></i></a>
                                 <a href="https://www.linkedin.com/company/legrand-india/" class="linkedin"><i
                                         class="icofont-linkedin"></i></i></a>
-                            
+
                             </div>
                         </div>
 
-                        <div class="col-lg-3 col-md-6 footer-newsletter">
-                            <h4>Our Newsletter</h4>
-                            <p>Get Our Daily Updates if you need any help</p>
-                            <form action="" method="post">
-                                <input type="email" name="email" /><input type="submit" value="Subscribe" />
-                            </form>
-                        </div>
+
                     </div>
                 </div>
             </div>
